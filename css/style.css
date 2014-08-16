@@ -547,7 +547,7 @@ article .inside {
 section#team, section#contact {
 	color: #e4e5e2;
 	background:#312A1E;
-  height: 50%;
+  	height: 50%;
 }
 section#team .align, section#contact .align {
 	font-size: 6em;
@@ -562,7 +562,7 @@ section#team .align, section#contact .align {
 	padding-top: 4.75em;
 }
 #team {
-	padding-bottom: 0;
+	padding-bottom: 10;
 }
 #contact {
 	padding-bottom: 0;
@@ -587,14 +587,21 @@ section#team .align, section#contact .align {
 .teamalign {
 	text-align:center
 }
+
+#img-apoio {
+  height: 200px; 
+}
+
 .team-thumb {
 	margin-top: 26px;
 	text-align:center;
+	width: 200px;
 }
 .job-position {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: .46155em;
 }
+
 /* Contact Form */
 
 #theme-form {
