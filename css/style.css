@@ -261,7 +261,7 @@ ul#menu-main > li > a:hover {
 	background-size: cover;
 	;
 	min-height: 600px;
-	margin-top: -60px;
+	margin-top: -90px;
 	padding-top:160px;
 	text-align:center;
 }
@@ -314,7 +314,7 @@ ul#menu-main > li > a:hover {
 	margin: 0;
 	border: 0;
 	text-transform: none;
-	background: #f0bf00 !important;
+    background: #0b333f !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -1438,4 +1438,8 @@ table th[class^="col-"] {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
+}
+
+#info p {
+    font-family: 'Lobster';
 }
