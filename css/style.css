@@ -382,7 +382,15 @@ section.single-page h1 {
 /* Portfolio */
 
 section#portfolio {
-	padding-bottom: 0;
+    background: url(../img/bg01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ; 
+    width: 100%;
+    padding-bottom: 0;
+    text-align:center;
 }
 section#portfolio h1 {
 	font-size: 3em;
@@ -429,6 +437,15 @@ section#portfolio .align {
 
 section#services {
 	padding-bottom: 9.5em;
+    
+    background: url(../img/bg01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ; 
+    width: 100%; 
+    text-align:center;
 }
 #services h1 {
 	font-size: 3em;
@@ -501,8 +518,15 @@ blockquote.mega .cite {
 	font-weight:300;
 }
 /* News */
-section#news {
-	background: url("../img/grey-cardboard-bg.png") repeat 0 0;
+section#news { 
+    background: url(../img/bg01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ; 
+    width: 100%; 
+    text-align:center;
 }
 section#news .align {
 	font-size: 6em;
@@ -562,7 +586,7 @@ section#team .align, section#contact .align {
 	padding-top: 4.75em;
 }
 #team {
-	padding-bottom: 10;
+    padding-bottom: 10%;
 }
 #contact {
 	padding-bottom: 0;
@@ -572,7 +596,9 @@ section#team .align, section#contact .align {
 #team h3 {
 	font-size: 26px;
 	margin-top: 24px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;  
+    width: 100%; 
+    text-align:center;
 }
 #team h3, .job-position {
 	text-align: center;
@@ -607,6 +633,15 @@ section#team .align, section#contact .align {
 #theme-form {
 	position: relative;
 	z-index: 999;
+    background: url(../img/bg01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ; 
+    width: 100%;
+    padding-bottom: 0;
+    text-align:center;
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
@@ -1443,3 +1478,4 @@ table th[class^="col-"] {
 #info p {
     font-family: 'Lobster';
 }
+     
